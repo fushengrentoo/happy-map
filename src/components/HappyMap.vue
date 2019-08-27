@@ -21,15 +21,14 @@ export default {
   props: {},
   data() {
     return {
-      center: { lng: 0, lat: 0 },
+      center: { lng: 0, lat:  0},
       zoom: 3
     };
   },
   methods: {
     handler() {
-      this.center.lng = 116.404;
-      this.center.lat = 39.915;
-      this.zoom = 15;
+      this.center = "深圳市";
+      this.zoom = 14;
     }    
   }
 };
